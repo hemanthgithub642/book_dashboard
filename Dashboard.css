@@ -1,0 +1,133 @@
+/* General styles */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid #ddd;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Table header styles */
+  th {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Table body styles */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:hover {
+    background-color: #ddd;
+}
+  
+  /* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+  
+.pagination button,
+.pagination input,
+.pagination select {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+  
+.pagination button:disabled {
+    background-color: #f2f2f2;
+    cursor: not-allowed;
+}
+  
+.pagination input {
+    width: 60px;
+}
+  
+.pagination select {
+    padding: 5px;
+}
+  
+  /* Search input styles */
+.search {
+    margin: 20px;
+}
+  
+.search input {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+  
+  /* Action button styles */
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.actions button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: #2a5298;
+    color: white;
+}
+  
+.actions button:hover {
+    background-color: #1e3c72;
+}
+  
+  /* Edit form styles */
+.edit-form {
+    display: flex;
+    align-items: center;
+}
+  
+.edit-form input {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+  
+  /* Download button styles */
+.download-btn {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: #2a5298;
+    color: white;
+}
+  
+.download-btn:hover {
+    background-color: #1e3c72;
+}
+  
